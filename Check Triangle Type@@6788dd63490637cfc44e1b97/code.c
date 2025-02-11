@@ -5,5 +5,5 @@ int main(){
     if(a==b && b==c ){
         printf("Equilateral");
     }
-    else if((a==b && b==c) ||(a==c &&))
+    // else if((a==b && b==c) ||(a==c &&))
 }
