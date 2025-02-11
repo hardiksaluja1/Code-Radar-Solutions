@@ -8,7 +8,7 @@ int main() {
     printf("Vowel");
     else if(isalpha(x)){
         printf("Consonant");
-    }else if (isdigit(x)) {
+    }else if(isdigit(x)) {
         printf("Digit");
     }else{
         printf("Special Character");
