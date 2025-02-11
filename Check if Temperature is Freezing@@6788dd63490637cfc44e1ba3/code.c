@@ -6,4 +6,7 @@ int main(){
     if(c<=0){
         printf("Freezing");
     }
+    else{
+        printf("Above Freezing");
+    }
 }
