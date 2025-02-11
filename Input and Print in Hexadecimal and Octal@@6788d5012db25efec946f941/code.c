@@ -7,7 +7,7 @@ int main() {
     scanf("%d", &a);
     
     // Print the hexadecimal and octal representations
-    printf("Hexadecimal: %x\n", a); // Print in hexadecimal
+    printf("Hexadecimal: %X\n", a); // Print in hexadecimal
     printf("Octal: %o\n", a);       // Print in octal
     
     return 0;
