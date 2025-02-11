@@ -1,14 +1,8 @@
 #include<stdio.h>
-
-int main() {
+int main{
     int a;
-    
-    // Take input from user
-    scanf("%d", &a);
-    
-    // Print the hexadecimal and octal representations
-    printf("Hexadecimal: %X\n", a); // Print in hexadecimal
-    printf("Octal: %o\n", a);       // Print in octal
-    
+    scanf("%d",&a);
+    printf("Hexadecimal: %X/n",a);
+    printf("Octal: %o/n",a);
     return 0;
 }
