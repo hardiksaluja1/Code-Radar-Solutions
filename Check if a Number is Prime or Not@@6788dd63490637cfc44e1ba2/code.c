@@ -1,5 +1,5 @@
 #include<stdio.h>
-    int is_prime(int n){
+int is_prime(int n){
     if(n<2)
         return 0;
     for(i=2,i<=n/2,i++){
