@@ -11,7 +11,7 @@
 int main(){
     int num;
     scanf("%d",&num);
-    if(is_prime){
+    if(is_prime(num)){
         printf("Prime");;
     }
     else{
