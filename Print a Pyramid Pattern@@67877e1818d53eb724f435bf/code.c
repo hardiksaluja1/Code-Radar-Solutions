@@ -1,10 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int i, j, n;
-
-    // Ask user for the number of levels in the pyramid
-    printf("Enter the number of levels for the pyramid: ");
+    int i,j,n;
     scanf("%d", &n);
 
     // Outer loop to handle the number of levels (rows)
