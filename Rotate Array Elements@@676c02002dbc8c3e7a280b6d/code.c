@@ -30,12 +30,12 @@ int main() {
     int n = sizeof(arr) / sizeof(arr[0]);
     int k = 2;
 
-    printf("Original Array: ");
+     
     printArray(arr, n);
 
     rotateArray(arr, n, k);
 
-    printf("Array after rotating by %d positions: ", k);
+    printf("%d  ", k);
     printArray(arr, n);
 
     return 0;
