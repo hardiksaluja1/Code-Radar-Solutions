@@ -7,6 +7,5 @@ int main(){
         printf("%d x %d = %d",i,j,i*j);
     }
     printf("\n");
-    }
     return 0;
-}
+    }
