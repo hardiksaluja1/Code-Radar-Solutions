@@ -1,10 +1,9 @@
 #include<stdio.h>
 int main(){
-    int n,i,j,product=0;
+    int n,i,j,;
     scanf("%d",&n);
     for(i=1;i<=n;i++){
-        for(j=1;j<=n;j++){
-        product *= i;
+        for(j=1;j<=n;j++);
         printf("%d x %d = %d",i,j,product);
     }
     printf("\n");
