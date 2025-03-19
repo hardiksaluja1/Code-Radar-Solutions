@@ -5,4 +5,5 @@ int main(){
     for(i=1;i<n-i;i++){
         printf(" ");
     }
+    return 0;
 }
