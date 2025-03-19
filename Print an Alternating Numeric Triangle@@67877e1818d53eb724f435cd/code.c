@@ -9,7 +9,12 @@ int main(){
     }
     for(int j=0;j<n;j++){
         printf("%d ",l);
-        l == 0 ? l = 1 : l = 0;
+        if(l==0){
+            l=1;
+        }
+        else{
+            l=0;
+        }
     }
     printf("\n");
    }
