@@ -1,16 +1,12 @@
 #include<stdio.h>
 int main(){
-    int n,i,j,b;
+    int n,i,j;
     scanf("%d",&n);
-    b=1;
     for(i=1;i<=n;i++){
         for(j=1;j<=i;j++){
-            printf("%d", j*b);
-        }
-        for(j=1;j<=i;j++){
-            printf(" ");
+            printf(j);
         }
         printf("\n");
     }
-    b++;
+    return 0;
 }
