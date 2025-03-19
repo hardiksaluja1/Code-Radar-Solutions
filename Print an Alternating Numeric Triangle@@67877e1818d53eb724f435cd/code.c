@@ -1,17 +1,17 @@
 #include<stdio.h>
 int main(){
-    int n,i,j;
-    scanf("%d",&n);
-    for(i=1;i<=n;i++){
-        for(j=1;j<=i;j++){
-            if(j%2==1+i){
-                printf("1 ");
-            }
-            else{
-                printf("0 ");
-            }
-        }
-        printf("\n");
+   int n;
+   int l=1;
+   scanf("%d",&n);
+   for(int i=1;i<=n;i++){
+    if(i%2=0){
+        l=0;
     }
+    for(int j=0;j<n;j++){
+        printf("%d ",l);
+        l==0?l=1:l=0;
+    }
+    printf("\n");
+   }
     return 0;
 }
