@@ -10,6 +10,7 @@ int main(){
             if(j<=5){
                 printf("*");
             }
+            printf("\n");
         }
     return 0;
 }
