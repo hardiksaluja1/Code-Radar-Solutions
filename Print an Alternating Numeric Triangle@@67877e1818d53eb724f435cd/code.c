@@ -7,7 +7,7 @@ int main(){
     if(i%2==0){
         l=0;
     }
-    for(int j=0;j<n;j++){
+    for(int j=0;j<i;j++){
         printf("%d ",l);
         if(l==0){
             l=1;
