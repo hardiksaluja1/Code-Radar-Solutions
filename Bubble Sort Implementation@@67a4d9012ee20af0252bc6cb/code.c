@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main() {
-    int n,arr[],i,j;
+    int n,i,j;
     scanf("%d", &n);
 
     int arr[n];
