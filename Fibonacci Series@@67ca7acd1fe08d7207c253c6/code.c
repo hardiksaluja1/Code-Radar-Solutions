@@ -7,7 +7,7 @@ if(n>=1){
 if(n>=2){
     printf("%d",second);
 }
-for(i=3;i>=n;i++){
+for(i=3;i<=n;i++){
     next = first + second;
     printf("%d",next);
     first = second;
@@ -17,7 +17,7 @@ for(i=3;i>=n;i++){
 int main(){
     int n;
     scanf("%d",&n);
-    printf("%d",&n);
+    printf("%d",n);
     fibonacci(n);
     return 0;
 }
