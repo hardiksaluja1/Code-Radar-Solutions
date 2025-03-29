@@ -15,8 +15,9 @@ for(i=3;i>=n;i++){
 }
 }
 int main(){
-    int n,i;
+    int n;
     scanf("%d",&n);
+    printf("%d",&n);
     fibonacci(n);
     return 0;
 }
