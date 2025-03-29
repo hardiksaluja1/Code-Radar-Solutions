@@ -2,32 +2,29 @@
 
 void fibonacci(int n) {
     int first = 0, second = 1, next;
+    int i = 1; // Start with the first term
 
-    // Printing the first Fibonacci number
-    if (n >= 1) {
-        printf("%d ", first);
-    }
+    // Print the first Fibonacci number if n >= 1
+    while (i <= n) {
+        if (i == 1) {
+            printf("%d ", first); // Print the first term
+        } else if (i == 2) {
+            printf("%d ", second); // Print the second term
+        } else {
+            next = first + second;
+            printf("%d ", next); // Print the next Fibonacci number
 
-    // Printing the second Fibonacci number
-    if (n >= 2) {
-        printf("%d ", second);
-    }
+            // Update first and second for the next iteration
+            first = second;
+            second = next;
+        }
 
-    // Generate the Fibonacci sequence from the 3rd term onward
-    for (int i = 3; i <= n; i++) {  // Declare i here
-        next = first + second;
-        printf("%d ", next);
-
-        // Update the first and second values for the next iteration
-        first = second;
-        second = next;
+        i++; // Increment the counter
     }
 }
 
 int main() {
     int n;
-
-    // Ask the user for the number of Fibonacci terms
     scanf("%d", &n);
 
     // Calling the Fibonacci function to print the sequence
