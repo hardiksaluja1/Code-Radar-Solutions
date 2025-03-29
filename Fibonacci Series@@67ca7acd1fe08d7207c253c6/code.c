@@ -19,6 +19,7 @@ int main(){
     int n;
     scanf("%d",&n);
     fibonacci(n);
+    return 0;
 }
 
 
