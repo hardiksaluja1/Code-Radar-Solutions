@@ -28,11 +28,10 @@ int main() {
     int n;
 
     // Ask the user for the number of Fibonacci terms
-    printf("Enter the number of Fibonacci terms: ");
     scanf("%d", &n);
 
     // Calling the Fibonacci function to print the sequence
-    printf("Fibonacci Sequence up to %d terms: ", n);
+    printf("%d ", n);
     fibonacci(n);
 
     return 0;
