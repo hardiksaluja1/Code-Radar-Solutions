@@ -1,5 +1,4 @@
 #include<stdio.h>
-int n,i,j;
 void fibonacci(int n){
 int first =0,second = 1,next;
 if(n>=1){
