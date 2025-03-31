@@ -6,7 +6,7 @@ int main(){
     if(n<2){
         isprime=0;
     }else{
-        for(i=2;i<=sqrt(num);i++){
+        for(i=2;i<=sqrt(n);i++){
             if(n%2==0){
                 isprime=0;
                 break;
