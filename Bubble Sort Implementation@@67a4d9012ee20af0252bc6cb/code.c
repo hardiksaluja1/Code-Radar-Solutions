@@ -11,9 +11,10 @@ void bubbleSort(int arr[], int n) {
     }
 }
 int main(){
-    int arr[],int n;
+    int arr[n];
+    int n;
     scanf("%d",&n);
-    for(i=1;i<=n;i++){
-        printf("%d",arr[i]);
+    for(i=0;i<=n;i++){
+        scanf("%d",arr[i]);
     }
 }
