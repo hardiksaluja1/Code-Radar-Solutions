@@ -9,7 +9,6 @@ int main(){
         for(i=2;i<=sqrt(n);i++){
             if(n%2==0){
                 isprime=0;
-                break;
             }
         }
     }
